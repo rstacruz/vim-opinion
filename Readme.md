@@ -1,7 +1,7 @@
 # rstacruz/[vim-opinion](plugin/options.vim)
 
 these are my opinionated vim defaults.
-contrast with [vim-sensible](https://github.com/tpope/vim-sensible).
+recommended to be used with [vim-sensible](https://github.com/tpope/vim-sensible).
 
 recommended for use with pathogen or vundle.
 
