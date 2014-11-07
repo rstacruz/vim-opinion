@@ -1,7 +1,9 @@
 # rstacruz/[vim-opinion](plugin/options.vim)
 
-these are my opinionated vim defaults.
-recommended for use with [vim-sensible](https://github.com/tpope/vim-sensible).
+an almost-universal set of defaults that *most* people can agree on.
+recommended for use alongside [vim-sensible].
+
+[vim-sensible]: https://github.com/tpope/vim-sensible
 
 <br>
 

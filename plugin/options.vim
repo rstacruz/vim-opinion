@@ -2,8 +2,6 @@
 " Options
 "
 
-set encoding=utf-8              "enc:   character encoding
-set backspace=indent,eol,start  "bs:    backspacing over insert mode
 set history=50                  "hi:    keep 50 lines of command line history
 set ruler                       "ru:    show the cursor position all the time
 set showcmd                     "sc:    display incomplete commands
@@ -92,13 +90,6 @@ set wildignore+=*.~             "wig:   ignore compiled objects and backups
 set wig+=*.o,*.obj,*.pyc
 set wig+=.sass-cache,tmp
 set wildmode=longest:full,list:full
-
-" 
-" Sessions
-"
-
-set sessionoptions-=options     "ssop:  don't store global/local values
-set sessionoptions-=folds       "ssop:  don't store folds
 
 "
 " Slimmer tabs
