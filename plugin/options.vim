@@ -90,9 +90,3 @@ set wildignore+=*.~             "wig:   ignore compiled objects and backups
 set wig+=*.o,*.obj,*.pyc
 set wig+=.sass-cache,tmp
 set wildmode=longest:full,list:full
-
-"
-" Slimmer tabs
-"
-
-set tabline=
