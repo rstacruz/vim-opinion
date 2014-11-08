@@ -1,3 +1,9 @@
+if exists('g:loaded_rstacruz_vim_opinion') || &compatible
+  finish
+else
+  let g:loaded_rstacruz_vim_opinion = 1
+endif
+
 " 
 " Options
 "
