@@ -71,7 +71,6 @@ set directory=/tmp              "dir:   directory for temp files
 set number                      "nu:    numbers lines
 set numberwidth=5               "nuw:   width of number column
 set showmode                    "smd:   shows current vi mode in lower left
-set showcmd                     "sc:    shows typed commands
 set cmdheight=1                 "ch:    make a little more room for error messages
 set scrolloff=4                 "so:    places a couple lines between the current line and the screen edge
 set sidescrolloff=2             "siso:  places a couple lines between the current column and the screen edge
