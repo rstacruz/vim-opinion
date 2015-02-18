@@ -83,7 +83,11 @@ set lazyredraw                  "lz:    will not redraw the screen while running
 "
 
 if has("cryptv")
-  set cryptmethod=blowfish        "cm:    make encryption more secure
+  if v:version > 704 || v:version == 704 && has("patch399")
+    set cryptmethod=blowfish2   "cm:    make encryption the most secure
+  elseif v:version >= 703
+    set cryptmethod=blowfish    "cm:    make encryption more secure than pkzip
+  endif
 endif
 
 "
