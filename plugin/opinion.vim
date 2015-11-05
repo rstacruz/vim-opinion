@@ -4,7 +4,7 @@ else
   let g:loaded_rstacruz_vim_opinion = 1
 endif
 
-" 
+"
 " Options
 "
 
@@ -25,7 +25,7 @@ set foldnestmax=10              "fdn:   deepest fold is 10 levels
 set nofoldenable                "nofen: don't fold by default
 set foldlevel=1
 
-" 
+"
 " Search
 "
 
@@ -45,7 +45,7 @@ set cinoptions=l1,j1            "cino:  affects the way cindent reindents lines
 set showmatch                   "sm:    flashes matching brackets or parenthasis
 set matchtime=3                 "mat:   How long to flash brackets
 
-" 
+"
 " Tabs
 "
 
@@ -78,7 +78,7 @@ set laststatus=2                "ls:    makes the status bar always visible
 set ttyfast                     "tf:    improves redrawing for newer computers
 set lazyredraw                  "lz:    will not redraw the screen while running macros (goes faster)
 
-" 
+"
 " Encryption
 "
 
@@ -88,6 +88,10 @@ if has("cryptv")
   elseif v:version >= 703
     set cryptmethod=blowfish    "cm:    make encryption more secure than pkzip
   endif
+endif
+
+if has("linebreak")
+  set breakindent               "bri:   visually indent wrapped lines
 endif
 
 "
