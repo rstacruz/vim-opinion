@@ -82,17 +82,21 @@ set lazyredraw                  "lz:    will not redraw the screen while running
 " Encryption
 "
 
-if has("cryptv")
-  if v:version > 704 || v:version == 704 && has("patch399")
+if has('cryptv')
+  if v:version > 704 || v:version == 704 && has('patch399')
     set cryptmethod=blowfish2   "cm:    make encryption the most secure
   elseif v:version >= 703
     set cryptmethod=blowfish    "cm:    make encryption more secure than pkzip
   endif
 endif
 
-if has("linebreak")
-  set breakindent               "bri:   visually indent wrapped lines
-  let &showbreak='↳'
+if has('linebreak')
+  try
+    set breakindent             "bri:   visually indent wrapped lines
+    let &showbreak='↳'
+  catch /E518:/
+    " Unknown option: breakindent
+  endtry
 endif
 
 "
