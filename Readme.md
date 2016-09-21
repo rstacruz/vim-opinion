@@ -9,7 +9,12 @@ recommended for use alongside [vim-sensible].
 
 ## Getting started
 
-doing a fresh install? give it a try with [vundle] or [pathogen].
+```vim
+Plugin 'tpope/vim-sensible'
+Plugin 'rstacruz/vim-opinion'
+```
+
+Doing a fresh install? Give it a try with [vundle] or [pathogen].
 **[See instructions ▸](doc/Starter_pack.md)**
 
 <br>
