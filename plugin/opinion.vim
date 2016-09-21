@@ -30,8 +30,8 @@ set foldlevel=1
 "
 
 set incsearch                   "is:    automatically begins searching as you type
-    set ignorecase                  "ic:    ignores case when pattern matching
-    set smartcase                   "scs:   ignores ignorecase when pattern contains uppercase characters
+set ignorecase                  "ic:    ignores case when pattern matching
+set smartcase                   "scs:   ignores ignorecase when pattern contains uppercase characters
 set hlsearch                    "hls:   highlights search results; ctrl-n or :noh to unhighlight
 set gdefault                    "gd:    Substitute all matches in a line by default
 
@@ -105,6 +105,9 @@ endif
 
 set wildmenu                    "wmnu:  enhanced ed command completion
 set wildignore+=*.~             "wig:   ignore compiled objects and backups
-set wig+=*.o,*.obj,*.pyc
-set wig+=.sass-cache,tmp
+set wildignore+=*.o,*.obj,*.pyc
+set wildignore+=.sass-cache,tmp
+set wildignore+=node_modules
+set wildignore+=log,logs
+set wildignore+=vendor
 set wildmode=longest:full,list:full
