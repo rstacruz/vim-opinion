@@ -111,3 +111,9 @@ set wildignore+=node_modules
 set wildignore+=log,logs
 set wildignore+=vendor
 set wildmode=longest:full,list:full
+
+"
+" Shell (neovim)
+"
+
+if $SHELL !=# "" | set shell=$SHELL | endif
