@@ -1,7 +1,11 @@
-# rstacruz/[vim-opinion](plugin/options.vim)
+# rstacruz/vim-opinion
 
-an almost-universal set of defaults that *most* people can agree on.
+> A good set of Vim defaults
+
+An almost-universal set of defaults that *most* people can agree on.
 recommended for use alongside [vim-sensible].
+
+**[View source ▸](plugin/opinion.vim)**
 
 [vim-sensible]: https://github.com/tpope/vim-sensible
 
