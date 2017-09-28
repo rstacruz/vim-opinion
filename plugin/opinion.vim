@@ -15,6 +15,8 @@ set hidden                      "hid:   don't care about closing modified buffer
 set winminheight=0              "wmh:   allow showing windows as just status bars
 set mouse=a                     "       Enable the use of a mouse
 set nowrap                      "       soft-wrapping is off by default
+set splitbelow                  " splitting a window will put the new window below the current one
+set splitright                  " splitting a window will put the new window right of the current one
 
 "
 " Folding
